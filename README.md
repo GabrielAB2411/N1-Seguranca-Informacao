@@ -98,7 +98,6 @@ python3 SimpleTCPClient.py
    - As mensagens trocadas depois disso: os bytes aparecem
      **cifrados/ilegíveis** (é o resultado da Cifra de César aplicada),
      comprovando que a criptografia está funcionando fim a fim.
-5. Salve a captura (`.pcapng`) para usar como print/evidência no vídeo.
 
 ### 5) Testando o módulo de primos isoladamente
 ```bash
@@ -106,22 +105,3 @@ python3 testes_primos.py
 # digite um N, ex: 104729
 # compara o tempo do primo_fast x primo_slow para o mesmo número
 ```
-
-## Vídeo (time-lapse) e entrega
-- Gravar um vídeo (time-lapse) mostrando:
-  1. Os dois scripts rodando (idealmente em duas máquinas/janelas
-     diferentes) trocando mensagens.
-  2. O Wireshark capturando o tráfego, mostrando o handshake DH em aberto
-     e as mensagens cifradas.
-  3. Uma rápida demonstração do `testes_primos.py`.
-- Subir o vídeo no YouTube.
-- Subir este código completo (com este README) em um repositório no GitHub.
-- Enviar os dois links (GitHub + YouTube) no formulário até 21/8 às 23h45.
-
-## Observação de segurança/didática
-Esta é uma implementação **didática**. A Cifra de César (mesmo estendida
-para 256 valores) não é seguro para uso real — ela é facilmente quebrada
-por força bruta (só existem 255 chaves possíveis) ou análise de frequência.
-O objetivo do trabalho é entender o *fluxo* do Diffie-Hellman (troca segura
-de uma chave simétrica) combinado a uma cifra simétrica simples, não propor
-um sistema de criptografia para produção.
