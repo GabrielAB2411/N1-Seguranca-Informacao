@@ -1,7 +1,6 @@
 # N1 – Cifra de César + Diffie-Hellman sobre Socket TCP
 
-Trabalho da disciplina de Criptografia Simétrica. Implementação de comunicação
-cliente/servidor via **socket TCP**, com troca de chaves por **Diffie-Hellman**
+Implementação de comunicação cliente/servidor via **socket TCP**, com troca de chaves por **Diffie-Hellman**
 e criptografia do fluxo de mensagens por uma **Cifra de César autoral**
 (implementada do zero, sem bibliotecas prontas de criptografia).
 
