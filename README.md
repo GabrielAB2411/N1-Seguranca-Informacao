@@ -1,4 +1,4 @@
-# N1 – Cifra de César + Diffie-Hellman sobre Socket TCP
+# N1 – Cifra de César + Diffie-Hellman sobre Socket TCP (Gabriel, Ruan e Gustavo)
 
 Implementação de comunicação cliente/servidor via **socket TCP**, com troca de chaves por **Diffie-Hellman**
 e criptografia do fluxo de mensagens por uma **Cifra de César autoral**
