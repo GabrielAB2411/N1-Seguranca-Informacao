@@ -24,8 +24,6 @@ Personagens da comunicação:
 Os dois scripts (`SimpleTCPServer.py` e `SimpleTCPClient.py`) usam `socket`
 puro do Python, então já funcionam em máquinas diferentes na mesma rede —
 basta rodar o servidor em uma máquina e apontar o IP dela no cliente.
-**Esta etapa fica por sua conta** (rodar nas duas máquinas + gravar a captura
-no Wireshark). Roteiro sugerido abaixo em "Como testar".
 
 ### Etapa 2 – Cifra de César autoral
 Implementada em `caesar.py`, sem usar nenhuma biblioteca de criptografia
